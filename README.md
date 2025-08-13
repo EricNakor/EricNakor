@@ -15,9 +15,8 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 
 ## 🌱 Currently Learning
-- Java
-- Docker
-- Jenkins
+- TypeScript
+- Hypervisor os
 
 ## 🔥 Top Languages
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EricNakor&show_icons=true&theme=github_dark)
