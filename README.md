@@ -66,7 +66,7 @@
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EricNakor&theme=github-dimmed&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojw1996)](https://solved.ac/ojw1996/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojw1996)](https://solved.ac/eric7na/)
 
 [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=EricNakor&theme=darkhub&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -75,48 +75,3 @@
     </td>
   </tr>
 </table>
-
----
-
-### 🐍 GitHub 기여도 그래프 애니메이션 (Contribution Snake)
-**이 애니메이션은 GitHub Actions 설정이 반드시 필요합니다.** 아래 가이드를 따라 직접 만들어보세요!
-
-<details>
-<summary><b>⚙️ Snake 애니메이션 설정 가이드 (클릭하여 펼치기)</b></summary>
-
-1.  **프로필 저장소**(`EricNakor/EricNakor`)에 `.github/workflows` 디렉토리를 생성합니다.
-2.  해당 디렉토리 안에 `snake.yml` 파일을 만들고 아래 코드를 그대로 붙여넣습니다.
-
-    ```yml
-    name: Generate Snake Animation
-
-    on:
-      schedule:
-        - cron: "0 0 * * *" # 매일 자정에 실행
-      workflow_dispatch:
-
-    jobs:
-      build:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v3
-          - uses: Platane/snk@v3
-            with:
-              github_user_name: ${{ github.repository_owner }}
-              outputs: |
-                dist/github-snake.svg
-                dist/github-snake-dark.svg?palette=github-dark
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    ```
-
-3.  커밋하고 Push하면 GitHub Actions가 자동으로 실행되어 애니메이션 SVG 파일이 생성됩니다.
-4.  애니메이션이 보이지 않는다면, 프로필 저장소의 `Actions` 탭에서 `Generate Snake Animation` 워크플로우를 수동으로 한번 실행(`Run workflow`)해주세요.
-5.  모든 준비가 끝났습니다! 이제 아래 코드를 README의 원하는 위치에 추가하면 정상적으로 표시됩니다.
-
-</details>
-
-```markdown
-<p align="center">
-  <img src="[https://raw.githubusercontent.com/EricNakor/EricNakor/output/github-snake-dark.svg](https://raw.githubusercontent.com/EricNakor/EricNakor/output/github-snake-dark.svg)" alt="snake animation">
-</p>
