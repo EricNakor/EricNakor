@@ -1,6 +1,6 @@
 <div align="center">
   
-# 👋 나준호, Na Junho
+# 나준호, Na Junho
 
 **웹과 시스템 개발에 깊은 관심을 두고 꾸준히 성장하는 개발자입니다.**
 
@@ -60,8 +60,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EricNakor&layout=compact&theme=github_dark_dimmed)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=EricNakor&theme=github-dark-dimmed&hide_border=true)](https://git.io/streak-stats)
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EricNakor&theme=github-dimmed&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eric7na)](https://solved.ac/eric7na/)
 
