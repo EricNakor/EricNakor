@@ -51,9 +51,6 @@
 ### 🛠️ 툴 & 협업
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
 
-    </td>
-    <td width="35%">
-
 ## 📊 통계 & 활동 (Stats & Activity)
 
 <p align="center">
@@ -66,12 +63,11 @@
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EricNakor&theme=github-dimmed&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojw1996)](https://solved.ac/eric7na/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eric7na)](https://solved.ac/eric7na/)
 
 [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=EricNakor&theme=darkhub&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </p>
-      
-    </td>
+    
   </tr>
 </table>
