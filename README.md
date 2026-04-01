@@ -25,11 +25,23 @@
 
 ## 🛠️ Tech Stack
 
-### 💻 Development
-[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,js,ts,nextjs,react,tailwind,electron,mysql,postgres,redis&perline=8)](https://skillicons.dev)
+### ⚙️ Backend
+[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,rabbitmq,hibernate&perline=8)](https://skillicons.dev)
 
-### 🌐 Infra & DevOps
-[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,nginx,cloudflare,prometheus,grafana,windows,apple&perline=8)](https://skillicons.dev)
+### 🎨 Frontend
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,electron&perline=8)](https://skillicons.dev)
+
+### 🗄️ Database & Storage
+[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb,elasticsearch,minio&perline=8)](https://skillicons.dev)
+
+### 🌐 DevOps & Infrastructure
+[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,proxmox,ansible,terraform,cloudflare,nginx&perline=8)](https://skillicons.dev)
+
+### 📊 Monitoring & Observability
+[![My Skills](https://skillicons.dev/icons?i=prometheus,grafana&perline=8)](https://skillicons.dev)
+
+### 🛠️ Tools & Productivity
+[![My Skills](https://skillicons.dev/icons?i=idea,webstorm,vscode,eclipse,git,github,postman,figma,obsidian,notion&perline=10)](https://skillicons.dev)
 
 ---
 
@@ -38,34 +50,44 @@
 
 ```mermaid
 graph TD
-    subgraph Internet ["🌐 Public Access"]
-        CF[Cloudflare Tunnels]
+    %% Internet & External Access
+    ISP((🌐 ISP)) --> MODEM{ISP Modem}
+    CLIENT[📱 External Client] <--> CF[☁️ Cloudflare]
+    
+    %% HomeLab Segment
+    subgraph HomeLab ["🧪 HomeLab (Isolated Branch)"]
+        MODEM -- "Public IP" --> OPN[🛡️ OPNsense Firewall]
+        OPN -- "Private IP" --> MINI[🖥️ Minisforum UM870 Slim]
+        
+        subgraph ProdServices ["🚀 Prod Services (LXC)"]
+            MINI --> S1["DoEatFit"]
+            MINI --> S2["ChoisIntl"]
+            MINI --> S3["SeoulHouse"]
+            MINI --> MON["Loki / Prom / Grafana"]
+        end
     end
+    
+    %% Connection from Cloudflare
+    CF <-->|":443"| MINI
 
-    subgraph DMZ ["🛡️ Security & Edge"]
-        NPM[Nginx Proxy Manager]
-        OPN[OPNsense Firewall]
+    %% HomeNet Segment
+    subgraph HomeNet ["🏠 HomeNet (General Use)"]
+        MODEM -- "Public IP" --> MESH1[📡 MESH Router 1]
+        MESH1 -- "Private IP" --> HUB[🔌 Switch HUB]
+        
+        HUB --> WIN_A["💻 Windows 11"]
+        HUB --> MAC["🍎 Mac Mini"]
+        HUB --> NAS["💾 Synology NAS"]
+        subgraph NAS_Services ["🏠 Home Services"]
+            NAS --> HA[Home Assistant]
+            NAS --> PH[Pi-hole]
+            NAS --> ZB[Zigbee2MQTT]
+        end
+        
+        HUB -- "Private IP" --> MESH2[📡 MESH Router 2]
+        MESH2 --> WIN_B["💻 Windows 11"]
+        MESH2 --> TV["📺 Smart TV"]
     end
-
-    subgraph HomeLab ["🧪 HomeLab (LXC/Docker)"]
-        PROX[Proxmox VE]
-        PROX --> S1["DoEatFit"]
-        PROX --> S2["ChoisIntl"]
-        PROX --> S3["SeoulHouse"]
-        PROX --> MONITOR["Loki / Prometheus / Grafana / Tempo"]
-    end
-
-    subgraph HomeNet ["🏠 Internal HomeNet"]
-        SYN[Synology NAS]
-        SYN --> HA[Home Assistant]
-        SYN --> PH[Pi-hole]
-        SYN --> Zigbee[Zigbee2MQTT]
-    end
-
-    CF --> NPM
-    NPM --> OPN
-    OPN --> HomeLab
-    OPN --> HomeNet
 ```
 
 ---
