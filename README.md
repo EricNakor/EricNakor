@@ -26,19 +26,19 @@
 ## 🛠️ Tech Stack
 
 ### ⚙️ Backend
-[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,rabbitmq,hibernate&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,rabbitmq,hibernate&perline=10)](https://skillicons.dev)
 
 ### 🎨 Frontend
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,electron&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,electron&perline=10)](https://skillicons.dev)
 
 ### 🗄️ Database & Storage
-[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb,elasticsearch,minio&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,redis,minio&perline=10)](https://skillicons.dev)
 
 ### 🌐 DevOps & Infrastructure
-[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,proxmox,ansible,terraform,cloudflare,nginx&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,cloudflare,nginx&perline=10)](https://skillicons.dev)
 
 ### 📊 Monitoring & Observability
-[![My Skills](https://skillicons.dev/icons?i=prometheus,grafana&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=prometheus,grafana&perline=10)](https://skillicons.dev)
 
 ### 🛠️ Tools & Productivity
 [![My Skills](https://skillicons.dev/icons?i=idea,webstorm,vscode,eclipse,git,github,postman,figma,obsidian,notion&perline=10)](https://skillicons.dev)
