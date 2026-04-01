@@ -1,71 +1,128 @@
 <div align="center">
-  
-# 나준호, Na Junho
 
-**웹과 시스템 개발에 깊은 관심을 두고 꾸준히 성장하는 개발자입니다.**
+# 🌌 Na Junho (나준호)
+### "소프트웨어 개발부터 탄탄한 인프라 구축까지, 경계 없는 최적화를 추구합니다."
 
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D1FF&center=true&vCenter=true&width=500&lines=Spring+Boot+%26+Next.js+Developer;HomeLab+%26+Infra+Enthusiast;Problem+Solver+;Continuous+Learner" alt="Typing SVG" />
 
-### ✉️ Contact & Socials
 <p align="center">
-  <a href="mailto:ericna130@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://blog.eric7na.synology.me"><img src="https://img.shields.io/badge/Blog-1A1A1A?style=for-the-badge&logo=blogger&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/junho-na-771005157"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <img src="https://komarev.com/ghpvc/?username=EricNakor&label=Profile%20Visitors&color=9740e0&style=for-the-badge" alt="profile visitors"/>
+  <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Blog-00D1FF?style=for-the-badge&logo=obsidian&logoColor=white" alt="Blog"></a>
+  <a href="mailto:ericna130@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <a href="https://www.linkedin.com/in/junho-na-771005157"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <img src="https://komarev.com/ghpvc/?username=EricNakor&label=Profile%20Visitors&color=00D1FF&style=for-the-badge" alt="profile visitors"/>
 </p>
 
 ---
 
-<table width="100%">
-  <tr valign="top">
-    <td width="65%">
-      
-- 🌱 현재 배우고 있는 것: TypeScript, Hypervisor OS
-- 👯 협업하고 싶은 분야: 웹 서비스, 시스템 개발
-- 🤔 관심사: 클라우드 네이티브, 분산 시스템 등
+</div>
 
-<br>
+## 👨‍💻 About Me
+- 🚀 **Full-Stack Developer**: Spring Boot와 Next.js를 주력으로, 확장 가능하고 유지보수가 쉬운 서비스를 만듭니다.
+- 🛡️ **Self-Hoster**: Proxmox 기반의 프라이빗 클라우드를 직접 구축하여 최신 기술들을 실험하고 실제 서비스에 적용합니다.
+- ⚡ **Security-Minded**: 네트워크 세분화와 터널링 기술을 통해 보안과 접근성의 균형을 고려한 아키텍처를 지향합니다.
 
-## 🚀 프로젝트 (Projects)
+---
 
-- **DoEatFit**
-    > 개인 맞춤 식단 추천 및 운동 가이드 웹 애플리케이션
-    
-    [![Readme Card](https://github-readme-stats.vercel.app/api/pin?username=EricNakor&repo=doeatfit_back&show_icons=true&theme=github_dark_dimmed)](https://github.com/EricNakor/doeatfit_back)
+## 🛠️ Tech Stack
 
-- **DaLabel**
-    > 인공지능 학습을 위한 데이터 라벨링 환경 제공 플랫폼
+### 💻 Development
+[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,js,ts,nextjs,react,tailwind,electron,mysql,postgres,redis,mongodb,elasticsearch,rabbitmq&perline=8)](https://skillicons.dev)
 
-    [![Readme Card](https://github-readme-stats.vercel.app/api/pin?username=EricNakor&repo=Dalabel&show_icons=true&theme=github_dark_dimmed)](https://github.com/EricNakor/Dalabel)
+### 🌐 Infra & DevOps
+[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,proxmox,nginx,cloudflare,prometheus,grafana,ansible,terraform&perline=8)](https://skillicons.dev)
 
-<br>
+---
 
-## 🔧 기술 스택 (Tech Stack)
+## 🏗️ Private Infrastructure Architecture
+> 보안과 성능의 균형을 위해 논리적으로 분리된 2개의 네트워크 세그먼트를 운영하고 있습니다.
 
-### 💻 언어 & 프레임워크
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+```mermaid
+graph TD
+    subgraph Internet ["🌐 Public Access"]
+        CF[Cloudflare Tunnels]
+    end
 
-### 🗄️ 데이터베이스
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+    subgraph DMZ ["🛡️ Security & Edge"]
+        NPM[Nginx Proxy Manager]
+        OPN[OPNsense Firewall]
+    end
 
-### 🛠️ 툴 & 협업
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
+    subgraph HomeLab ["🧪 HomeLab (LXC/Docker)"]
+        PROX[Proxmox VE]
+        PROX --> S1["DoEatFit"]
+        PROX --> S2["ChoisIntl"]
+        PROX --> S3["SeoulHouse"]
+        PROX --> MONITOR["Loki / Prometheus / Grafana / Tempo"]
+    end
 
-## 📊 통계 & 활동 (Stats & Activity)
+    subgraph HomeNet ["🏠 Internal HomeNet"]
+        SYN[Synology NAS]
+        SYN --> HA[Home Assistant]
+        SYN --> PH[Pi-hole]
+        SYN --> Zigbee[Zigbee2MQTT]
+    end
+
+    CF --> NPM
+    NPM --> OPN
+    OPN --> HomeLab
+    OPN --> HomeNet
+```
+
+---
+
+## 🚀 Featured Projects
+
+### 🥗 [DoEatFit](http://www.doeatfit.org)
+- **Concept**: 개인 맞춤형 식단 추천 및 운동 가이드 웹 애플리케이션
+- **Tech Stack**: `Spring Boot`, `Next.js`, `TypeScript`, `React`, `JPA`, `QueryDSL`, `Redis`, `MinIO`, `Meilesearch`, `Grafana`, `Loki`, `Prometheus`, `Tempo`, `MySQL`, `Github Action`
+- **Keywords**: #Observability #Optimization #Customization
+
+### 🏗️ [Chois International](http://www.choisintl.co)
+- **Concept**: 철강 무역 회사 기업용 반응형 웹사이트
+- **Tech Stack**: `Spring Boot`, `Next.js`, `TypeScript`, `React`, `JPA`, `Redis`, `MinIO`, `Swagger`, `Github Action`, `PostgreSQL`
+- **Keywords**: #GlobalTrade #ResponsiveWeb #CorporateIdentity
+
+### 🏠 [The Seoul House](http://www.theseoulhouse.com)
+- **Concept**: 다국어 지원 및 예약 관리가 가능한 게스트하우스 웹사이트
+- **Tech Stack**: `Kotlin`, `Spring Boot`, `Next.js`, `React`, `JPA`, `Redis`, `MinIO`, `TypeScript`, `PostgreSQL`, `GithubAction`
+- **Keywords**: #ReservationSystem #Multilingual #KotlinBackend
+
+### 📑 [Flowright](https://github.com/EricNakor/Flowright)
+- **Concept**: 노드 기반의 흐름 시각화 및 에디터 도구
+- **Tech Stack**: `TypeScript`, `React`, `Tailwind CSS`, `Electron`
+- **Keywords**: #FlowEditor #NodeBased #Visualization
+
+---
+
+## 📂 Other Projects
+- **DaLabel**: 데이터 라벨링 웹 서비스 (`Java`, `Spring Framework Legacy`)
+- **Algorithm & Data Structure**: 백준(BOJ) 문제 풀이 레포지토리 (`Java`)
+
+---
+
+## 📊 Statistics & Activities
 
 <p align="center">
-
-[![EricNakor's GitHub stats](https://github-readme-stats.vercel.app/api?username=EricNakor&show_icons=true&theme=github_dark_dimmed&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EricNakor&layout=compact&theme=github_dark_dimmed)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=EricNakor&theme=github-dark-dimmed&hide_border=true)](https://git.io/streak-stats)
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eric7na)](https://solved.ac/eric7na/)
-
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=EricNakor&theme=darkhub&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
+<img src="https://github-readme-stats.vercel.app/api?username=EricNakor&show_icons=true&theme=tokyonight&rank_icon=github" alt="Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EricNakor&layout=compact&theme=tokyonight" alt="Langs" />
 </p>
-    
-  </tr>
-</table>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EricNakor&theme=tokyonight" alt="Streak" />
+</p>
+
+---
+
+## ✍️ Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<p align="right">
+  <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Check_Out_My_Latest_Posts-00D1FF?style=for-the-badge&logoColor=white" /></a>
+</p>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D1FF&height=120&section=footer" />
+</div>
