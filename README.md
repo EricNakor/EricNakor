@@ -75,18 +75,16 @@ graph TD
         MODEM -- "Public IP" --> MESH1[📡 MESH Router 1]
         MESH1 -- "Private IP" --> HUB[🔌 Switch HUB]
         
-        HUB --> WIN_A["💻 Windows 11"]
-        HUB --> MAC["🍎 Mac Mini"]
         HUB --> NAS["💾 Synology NAS"]
+        HUB --> OD1["All other devices"]
         subgraph NAS_Services ["🏠 Home Services"]
-            NAS --> HA[Home Assistant]
             NAS --> PH[Pi-hole]
+            NAS --> HA[Home Assistant]
             NAS --> ZB[Zigbee2MQTT]
         end
         
         HUB -- "Private IP" --> MESH2[📡 MESH Router 2]
-        MESH2 --> WIN_B["💻 Windows 11"]
-        MESH2 --> TV["📺 Smart TV"]
+        MESH2 --> OD2["All other devices"]
     end
 ```
 
