@@ -26,10 +26,10 @@
 ## 🛠️ Tech Stack
 
 ### 💻 Development
-[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,js,ts,nextjs,react,tailwind,electron,mysql,postgres,redis,mongodb,elasticsearch,rabbitmq&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,js,ts,nextjs,react,tailwind,electron,mysql,postgres,redis&perline=8)](https://skillicons.dev)
 
 ### 🌐 Infra & DevOps
-[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,proxmox,nginx,cloudflare,prometheus,grafana,windows,apple&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,nginx,cloudflare,prometheus,grafana,windows,apple&perline=8)](https://skillicons.dev)
 
 ---
 
