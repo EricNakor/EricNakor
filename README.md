@@ -26,7 +26,7 @@
 ## 🛠️ Tech Stack
 
 ### ⚙️ Backend
-[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,rabbitmq,hibernate&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,kotlin,gradle,hibernate&perline=10)](https://skillicons.dev)
 
 ### 🎨 Frontend
 [![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,electron&perline=10)](https://skillicons.dev)
