@@ -1,7 +1,7 @@
 name: Latest blog post workflow
 on:
   schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
+    - cron: '0 0 * * *'
   workflow_dispatch: # Run workflow manually (through GitHub actions tab)
 
 # ✅ 이 부분이 누락되었습니다! Action이 README 파일을 수정할 수 있도록 쓰기 권한을 부여합니다.
@@ -21,4 +21,7 @@ jobs:
         with:
           feed_list: "https://ericna.pages.dev/index.xml"
           max_post_count: 5
-          template: "$newline- [$title]($url) ($date)"
+          # ✅ $date 대신 $publishedAt을 사용합니다.
+          template: "$newline- [$title]($url) ($publishedAt)"
+          # ✅ 날짜 형식을 지정합니다. (예: 2024-03-21)
+          date_format: "yyyy-MM-dd"
