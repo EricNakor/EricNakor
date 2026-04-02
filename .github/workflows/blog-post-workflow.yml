@@ -21,6 +21,6 @@ jobs:
         with:
           feed_list: "https://ericna.pages.dev/index.xml"
           max_post_count: 5
-          template: "$newline- [$title]($url) ($date)"
+          template: "$newline- [$title]($url) - $date"
           # ✅ date_format을 아래와 같이 설정하면 $date 값에 영향을 줍니다.
           date_format: "yyyy-mm-dd"
