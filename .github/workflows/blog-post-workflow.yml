@@ -21,7 +21,6 @@ jobs:
         with:
           feed_list: "https://ericna.pages.dev/index.xml"
           max_post_count: 5
-          # ✅ $date 대신 $publishedAt을 사용합니다.
-          template: "$newline- [$title]($url) ($publishedAt)"
-          # ✅ 날짜 형식을 지정합니다. (예: 2024-03-21)
+          template: "$newline- [$title]($url) ($date)"
+          # ✅ date_format을 아래와 같이 설정하면 $date 값에 영향을 줍니다.
           date_format: "yyyy-MM-dd"
