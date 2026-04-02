@@ -135,7 +135,11 @@ graph TD
 
 ## ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- [n8n 헬스 로봇 7 - 타임존과 시간 제어](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%8F%97%EF%B8%8FContainer/n8n/n8n-%ED%97%AC%EC%8A%A4-%EB%A1%9C%EB%B4%87-7---%ED%83%80%EC%9E%84%EC%A1%B4%EA%B3%BC-%EC%8B%9C%EA%B0%84-%EC%A0%9C%EC%96%B4) (Wed Apr 01 2026 12:00 AM)
+- [n8n 헬스 로봇 &lpar;6편&rpar;: 에러 발생 시 텔레그램 알림](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%8F%97%EF%B8%8FContainer/n8n/n8n-%ED%97%AC%EC%8A%A4-%EB%A1%9C%EB%B4%87-6---%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8-%EC%95%8C%EB%A6%BC) (Tue Mar 10 2026 12:00 AM)
+- [3. Quartz 블로그 자동화 텔레그램 봇 알림](https://ericna.pages.dev/%F0%9F%AA%A8Obsidian/%F0%9F%92%8EQuartz/Obsidian-Quartz-3) (Mon Mar 09 2026 12:00 AM)
+- [4. [트러블슈팅] Git 푸시 알림에서 한글과 이모지 파일명이 깨지는 현상](https://ericna.pages.dev/%F0%9F%AA%A8Obsidian/%F0%9F%92%8EQuartz/Obsidian-Quartz-4) (Mon Mar 09 2026 12:00 AM)
+- [n8n 헬스 로봇 &lpar;5편&rpar;: 코드 고도화와 리팩토링](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%8F%97%EF%B8%8FContainer/n8n/n8n-%ED%97%AC%EC%8A%A4-%EB%A1%9C%EB%B4%87-5---%EC%BD%94%EB%93%9C-%EA%B3%A0%EB%8F%84%ED%99%94%EC%99%80-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81) (Sun Mar 08 2026 12:00 AM)<!-- BLOG-POST-LIST:END -->
 
 <p align="right">
   <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Check_Out_My_Latest_Posts-00D1FF?style=for-the-badge&logoColor=white" /></a>
