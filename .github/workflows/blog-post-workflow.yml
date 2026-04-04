@@ -4,7 +4,6 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch: # Run workflow manually (through GitHub actions tab)
 
-# ✅ 이 부분이 누락되었습니다! Action이 README 파일을 수정할 수 있도록 쓰기 권한을 부여합니다.
 permissions:
   contents: write
 
@@ -22,5 +21,4 @@ jobs:
           feed_list: "https://ericna.pages.dev/index.xml"
           max_post_count: 5
           template: "$newline- [$title]($url) - $date"
-          # ✅ date_format을 아래와 같이 설정하면 $date 값에 영향을 줍니다.
           date_format: "yyyy-mm-dd"
