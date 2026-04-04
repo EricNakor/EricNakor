@@ -97,7 +97,7 @@ graph TD
 - **Tech Stack**: `Spring Boot`, `Next.js`, `TypeScript`, `React`, `JPA`, `QueryDSL`, `Redis`, `MinIO`, `Meilesearch`, `Grafana`, `Loki`, `Prometheus`, `Tempo`, `MySQL`, `Github Action`
 - **Keywords**: #Observability #Optimization #Customization
 
-### 🏗️ [Chois International](http://www.choisintl.co)
+### 🏗️ [Chois International](http://steel.choisintl.co)
 - **Concept**: 철강 무역 회사 기업용 반응형 웹사이트
 - **Tech Stack**: `Spring Boot`, `Next.js`, `TypeScript`, `React`, `JPA`, `Redis`, `MinIO`, `Swagger`, `Github Action`, `PostgreSQL`
 - **Keywords**: #GlobalTrade #ResponsiveWeb #CorporateIdentity
