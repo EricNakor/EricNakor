@@ -98,12 +98,12 @@ graph TD
 - **Keywords**: #Observability #Optimization #Customization
 
 ### 🏗️ [Chois International](http://steel.choisintl.co)
-- **Concept**: 철강 무역 회사 기업용 반응형 웹사이트
+- **Concept**: 다국어 지원 철강 무역 회사 기업용 반응형 웹사이트
 - **Tech Stack**: `Spring Boot`, `Next.js`, `TypeScript`, `React`, `JPA`, `Redis`, `MinIO`, `Swagger`, `Github Action`, `PostgreSQL`
 - **Keywords**: #GlobalTrade #ResponsiveWeb #CorporateIdentity
 
 ### 🏠 [The Seoul House](http://www.theseoulhouse.com)
-- **Concept**: 다국어 지원 및 예약 관리가 가능한 게스트하우스 웹사이트
+- **Concept**: 예약 관리가 가능한 BnB 서비스 웹사이트
 - **Tech Stack**: `Kotlin`, `Spring Boot`, `Next.js`, `React`, `JPA`, `Redis`, `MinIO`, `TypeScript`, `PostgreSQL`, `GithubAction`
 - **Keywords**: #ReservationSystem #Multilingual #KotlinBackend
 
