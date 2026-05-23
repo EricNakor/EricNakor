@@ -138,11 +138,11 @@ graph TD
 
 ## ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Proxmox 마이그레이션](https://ericna.pages.dev/%F0%9F%97%84%EF%B8%8FServer/Proxmox-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98) - 2026-04-08
-- [PostgreSQL &#39;Peer authentication failed&#39; 에러](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%97%83%EF%B8%8FDB/PostgreSQL/PostgreSQL-'Peer-authentication-failed'-%EC%97%90%EB%9F%AC) - 2026-04-07
-- [n8n 헬스 로봇 &lpar;7편&rpar;: 타임존과 시간 제어](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%8F%97%EF%B8%8FContainer/n8n/n8n-%ED%97%AC%EC%8A%A4-%EB%A1%9C%EB%B4%87-7---%ED%83%80%EC%9E%84%EC%A1%B4%EA%B3%BC-%EC%8B%9C%EA%B0%84-%EC%A0%9C%EC%96%B4) - 2026-04-01
-- [n8n 헬스 로봇 &lpar;6편&rpar;: 에러 발생 시 텔레그램 알림](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%8F%97%EF%B8%8FContainer/n8n/n8n-%ED%97%AC%EC%8A%A4-%EB%A1%9C%EB%B4%87-6---%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8-%EC%95%8C%EB%A6%BC) - 2026-03-10
-- [3. Quartz 블로그 자동화 텔레그램 봇 알림](https://ericna.pages.dev/%F0%9F%AA%A8Obsidian/%F0%9F%92%8EQuartz/Obsidian-Quartz-3) - 2026-03-09<!-- BLOG-POST-LIST:END -->
+- [ARCH&rpar; DoEatFit v2.0 다중 계층 인증 및 JWT 생명주기 설계서](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/ARCH)-DoEatFit-v2.0-%EB%8B%A4%EC%A4%91-%EA%B3%84%EC%B8%B5-%EC%9D%B8%EC%A6%9D-%EB%B0%8F-JWT-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EC%84%A4%EA%B3%84%EC%84%9C) - 2026-05-23
+- [ARCH&rpar; DoEatFit v2.0 전체 시스템 아키텍처 및 데이터 흐름 가이드](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/ARCH)-DoEatFit-v2.0-%EC%A0%84%EC%B2%B4-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EB%B0%8F-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%9D%90%EB%A6%84-%EA%B0%80%EC%9D%B4%EB%93%9C) - 2026-05-23
+- [GUIDE&rpar; DoEatFit v2.0 모던 웹 개발 실무 가이드 및 기술 부채 극복기](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/GUIDE)-DoEatFit-v2.0-%EB%AA%A8%EB%8D%98-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EC%8B%A4%EB%AC%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%B0%8F-%EA%B8%B0%EC%88%A0-%EB%B6%80%EC%B1%84-%EA%B7%B9%EB%B3%B5%EA%B8%B0) - 2026-05-23
+- [RETRO&rpar; DoEatFit v2.0 백엔드 보안 구조 고찰](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/RETRO)-DoEatFit-v2.0-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%B3%B4%EC%95%88-%EA%B5%AC%EC%A1%B0-%EA%B3%A0%EC%B0%B0) - 2026-05-23
+- [RETRO&rpar; DoEatFit v2.0 시스템 안정성 및 보안 고도화 통합 회고](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/RETRO)-DoEatFit-v2.0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%88%EC%A0%95%EC%84%B1-%EB%B0%8F-%EB%B3%B4%EC%95%88-%EA%B3%A0%EB%8F%84%ED%99%94-%ED%86%B5%ED%95%A9-%ED%9A%8C%EA%B3%A0) - 2026-05-23<!-- BLOG-POST-LIST:END -->
 
 <p align="right">
   <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Check_Out_My_Latest_Posts-00D1FF?style=for-the-badge&logoColor=white" /></a>
