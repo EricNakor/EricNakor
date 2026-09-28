@@ -138,11 +138,11 @@ graph TD
 
 ## ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Idempotency &lpar;멱등성&rpar;](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%92%BBCS/Idempotency-(%EB%A9%B1%EB%93%B1%EC%84%B1)) - 2026-07-20
-- [Deadlock &lpar;교착 상태&rpar;](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%97%83%EF%B8%8FDB/Deadlock-(%EA%B5%90%EC%B0%A9-%EC%83%81%ED%83%9C)) - 2026-07-20
-- [Pessimistic Lock &lpar;비관적 락&rpar;](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%F0%9F%97%83%EF%B8%8FDB/Pessimistic-Lock-(%EB%B9%84%EA%B4%80%EC%A0%81-%EB%9D%BD)) - 2026-07-20
-- [예약 시스템 주요 기능 E2E 흐름도](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/%EC%98%88%EC%95%BD-%EC%8B%9C%EC%8A%A4%ED%85%9C-E2E-%ED%9D%90%EB%A6%84%EB%8F%84) - 2026-07-20
-- [예약 시스템 동시성 제어 및 스케줄러 개선 회고](https://ericna.pages.dev/%F0%9F%91%BBProject/%F0%9F%8F%8B%EF%B8%8FDo-Eat-Fit/%F0%9F%93%9DRetrospective/%EC%98%88%EC%95%BD-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4-%EB%B0%8F-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC-%EA%B0%9C%EC%84%A0) - 2026-07-20<!-- BLOG-POST-LIST:END -->
+- [AWS SDK v2 체크섬과 S3 호환 스토리지](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/Spring/AWS-SDK-v2-%EC%B2%B4%ED%81%AC%EC%84%AC%EA%B3%BC-S3-%ED%98%B8%ED%99%98-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80) - 2026-09-28
+- [ShedLock 함정 모음](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/Spring/ShedLock-%ED%95%A8%EC%A0%95-%EB%AA%A8%EC%9D%8C) - 2026-09-28
+- [클라이언트 IP 는 누가 믿나](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/Spring/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-IP-%EB%8A%94-%EB%88%84%EA%B0%80-%EB%AF%BF%EB%82%98) - 2026-09-28
+- [ArgoCD prune·selfHeal 과 fail-closed 태그 치환](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/ArgoCD-prune%C2%B7selfHeal-%EA%B3%BC-fail-closed-%ED%83%9C%EA%B7%B8-%EC%B9%98%ED%99%98) - 2026-09-28
+- [Longhorn 백업은 detached 볼륨을 건너뛴다](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/Longhorn-%EB%B0%B1%EC%97%85%EC%9D%80-detached-%EB%B3%BC%EB%A5%A8%EC%9D%84-%EA%B1%B4%EB%84%88%EB%9B%B4%EB%8B%A4) - 2026-09-28<!-- BLOG-POST-LIST:END -->
 
 <p align="right">
   <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Check_Out_My_Latest_Posts-00D1FF?style=for-the-badge&logoColor=white" /></a>
