@@ -138,11 +138,11 @@ graph TD
 
 ## ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [String 이 불변인 이유와 StringBuilder](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/%EA%B8%B0%EC%B4%88/String-%EC%9D%B4-%EB%B6%88%EB%B3%80%EC%9D%B8-%EC%9D%B4%EC%9C%A0%EC%99%80-StringBuilder) - 2026-09-29
-- [equals 와 hashCode 를 함께 재정의해야 하는 이유](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/%EA%B8%B0%EC%B4%88/equals-%EC%99%80-hashCode-%EB%A5%BC-%ED%95%A8%EA%BB%98-%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0) - 2026-09-29
-- [람다식과 함수형 인터페이스](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/%EA%B8%B0%EC%B4%88/%EB%9E%8C%EB%8B%A4%EC%8B%9D%EA%B3%BC-%ED%95%A8%EC%88%98%ED%98%95-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4) - 2026-09-29
-- [스트림 API, 중간 연산과 최종 연산](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/%EA%B8%B0%EC%B4%88/%EC%8A%A4%ED%8A%B8%EB%A6%BC-API,-%EC%A4%91%EA%B0%84-%EC%97%B0%EC%82%B0%EA%B3%BC-%EC%B5%9C%EC%A2%85-%EC%97%B0%EC%82%B0) - 2026-09-29
-- [자바 동시성 기초 - synchronized, volatile, java.util.concurrent](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%95Java/%EA%B8%B0%EC%B4%88/%EC%9E%90%EB%B0%94-%EB%8F%99%EC%8B%9C%EC%84%B1-%EA%B8%B0%EC%B4%88---synchronized,-volatile,-java.util.concurrent) - 2026-09-29<!-- BLOG-POST-LIST:END -->
+- [Kubernetes 기초 &lpar;1편&rpar;: 선언과 조정 루프](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/%EA%B8%B0%EC%B4%88/Kubernetes-%EA%B8%B0%EC%B4%88-1---%EC%84%A0%EC%96%B8%EA%B3%BC-%EC%A1%B0%EC%A0%95-%EB%A3%A8%ED%94%84) - 2026-09-30
+- [Kubernetes 기초 &lpar;2편&rpar;: Pod 와 프로브](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/%EA%B8%B0%EC%B4%88/Kubernetes-%EA%B8%B0%EC%B4%88-2---Pod-%EC%99%80-%ED%94%84%EB%A1%9C%EB%B8%8C) - 2026-09-30
+- [Kubernetes 기초 &lpar;3편&rpar;: Deployment 와 롤링 업데이트](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/%EA%B8%B0%EC%B4%88/Kubernetes-%EA%B8%B0%EC%B4%88-3---Deployment-%EC%99%80-%EB%A1%A4%EB%A7%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8) - 2026-09-30
+- [Kubernetes 기초 &lpar;4편&rpar;: Service 와 DNS](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/%EA%B8%B0%EC%B4%88/Kubernetes-%EA%B8%B0%EC%B4%88-4---Service-%EC%99%80-DNS) - 2026-09-30
+- [Kubernetes 기초 &lpar;5편&rpar;: Ingress 와 Gateway API](https://ericna.pages.dev/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BBDevelop/%E2%98%B8%EF%B8%8FKubernetes/%EA%B8%B0%EC%B4%88/Kubernetes-%EA%B8%B0%EC%B4%88-5---Ingress-%EC%99%80-Gateway-API) - 2026-09-30<!-- BLOG-POST-LIST:END -->
 
 <p align="right">
   <a href="https://ericna.pages.dev"><img src="https://img.shields.io/badge/Check_Out_My_Latest_Posts-00D1FF?style=for-the-badge&logoColor=white" /></a>
